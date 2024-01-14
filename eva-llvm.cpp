@@ -11,7 +11,9 @@ int main(int argc, char *argv[]) {
    * Program to execute
    * TODO: why is this a raw string?
    */
-  std::string program = R"(47)";
+  std::string program = R"(
+  (printf "Value: %d\n" 42)
+  )";
 
   /**
    * Compiler instance.
